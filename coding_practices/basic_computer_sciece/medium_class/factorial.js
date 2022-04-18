@@ -1,12 +1,22 @@
+// function factorial(n){
+//     // 関数を完成させてください
+//     count = 1
+//     for(let i = 0; i < n; i ++){
+//         count = count * (i + 1) 
+//     }
+//     return count
+// }
+
 function factorial(n){
     // 関数を完成させてください
-    count = 1
-    for(let i = 0; i < n; i ++){
-        count = count * (i + 1) 
+    total = 1
+    while(n > 0){
+        total = total * n;
+        console.log(total)
+        n -= 1; 
     }
-    return count
+    return total
 }
-
 // 階乗
 // easy
 // 自然数 n が与えられるので、1 × 2 × 3 × ... × n を計算する factorial という関数を再帰を使って作成してください。

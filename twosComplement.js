@@ -1,6 +1,6 @@
 function twosComplement(bits){
 
-    message1 = getOneComplement(bits) 
+    message1 = getOneComplement(bits)
     endNumber = message1[message1.length-1]
     message2 = ''
     isMoveUp = false
@@ -19,11 +19,11 @@ function twosComplement(bits){
                 }
                 else if(isMoveUp == true){
                     if(message1[i]==0){
-                        message2 = '1' + message2 
+                        message2 = '1' + message2
                         isMoveUp =false
                     }
                     else if(message1[i]==1){
-                        message2 = '0' + message2 
+                        message2 = '0' + message2
                         isMoveUp = true
                     }
                 }
